@@ -4,7 +4,7 @@ public boolean isOnline(){
 	final NetworkInfo activeNetwork = conMgr.getActiveNetworkInfo();
 	
 	if (activeNetwork != null && activeNetwork.isConnected()) {
-	    return true;
+		return true;
 	} else {
 		return false;
 	}
